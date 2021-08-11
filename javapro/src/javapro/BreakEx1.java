@@ -10,7 +10,5 @@ public class BreakEx1 {
 			if(num == 3)
 				break;
 		}
-
 	}
-
 }
