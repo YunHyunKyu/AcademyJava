@@ -3,7 +3,7 @@ package javaObject;
 // 은행 계좌 클래스
 public class Account {
 	// 필드
-	final static String backName = "국민은행";
+	final static String BACKNAME = "국민은행";
 	String accountNo;	// 계좌 번호
 	String ownerName;	// 예금주 이름
 	int balance;		// 잔액
@@ -22,6 +22,7 @@ public class Account {
 	void deposit(int amount) {
 		balance += amount;
 	}
+	
 	// 출금 메서드
 	int withdraw(int amount) throws Exception{
 		if(balance > amount)

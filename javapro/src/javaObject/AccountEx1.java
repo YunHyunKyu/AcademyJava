@@ -21,6 +21,7 @@ public class AccountEx1 {
 	}
 	
 	public static void accountPrint(Account obj) {
+		System.out.println("은행 : " + obj.BACKNAME);
 		System.out.println("계좌번호 : " + obj.accountNo);
 		System.out.println("예금주이름 : " + obj.ownerName);
 		System.out.println("잔액 : " + obj.balance);
