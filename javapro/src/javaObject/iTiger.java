@@ -1,0 +1,18 @@
+package javaObject;
+
+public class iTiger extends Animal implements iAnimal {
+
+	@Override
+	void move() {
+		// TODO Auto-generated method stub
+		System.out.println("네발로 이동한다.");
+	}
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+		System.out.println("멧돼지를 잡아먹는다.");
+	}
+
+
+}

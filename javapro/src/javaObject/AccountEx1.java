@@ -11,6 +11,7 @@ public class AccountEx1 {
 			younghee.withdraw(3000);
 			accountPrint(younghee);
 			accountPrint(dongkuk);
+			accountPrint(new Account("555-77-432156", "박찬호", 5000000));
 			
 			int amount = younghee.withdraw(50000);
 			System.out.println("인출 금액 = " + amount);

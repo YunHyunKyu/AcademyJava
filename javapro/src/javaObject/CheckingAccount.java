@@ -12,6 +12,8 @@ public class CheckingAccount extends Account {
 		this.cardNo = cardNo;
 	}
 	
+	public CheckingAccount() {}
+	
 	// 체크카드로 결제한다.
 	int pay(String cardNo, int amount) throws Exception {
 		if(!this.cardNo.equals(cardNo))

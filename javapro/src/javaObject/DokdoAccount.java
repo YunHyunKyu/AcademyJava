@@ -7,6 +7,8 @@ public class DokdoAccount extends Account {
 		super(accountNo, ownerName, balance);
 	}
 	
+	public DokdoAccount() {}
+	
 	@Override
 	void deposit(int amount) {
 		super.deposit(amount);
